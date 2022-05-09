@@ -1,0 +1,724 @@
+Sub FirstStageQX()
+'
+' FirstStageQX Macro
+'
+'
+    Selection.Font.UnderlineColor = wdColorAutomatic
+    Selection.Font.Underline = wdUnderlineSingle
+    Selection.TypeText Text:= _
+        "Due to the stage of evaluation we are prohibited from asking any additional questions about this aspect of the applicant's self-report; however, if the applicant is moved forward in the hiring process, this is an area worthy of further exploration."
+    Selection.Font.UnderlineColor = wdColorAutomatic
+    Selection.Font.Underline = wdUnderlineSingle
+End Sub
+Sub Commitment()
+'
+' Commitment Macro
+'
+'
+    Selection.Font.UnderlineColor = wdColorAutomatic
+    Selection.Font.Underline = wdUnderlineSingle
+    Selection.TypeText Text:= _
+        "level of commitment to the current hiring process may be limited, as he expressed a different agency of first choice."
+    Selection.Font.UnderlineColor = wdColorAutomatic
+    Selection.Font.Underline = wdUnderlineSingle
+End Sub
+Sub IsoRemote()
+'
+' IsoRemote Macro
+'
+'
+    Selection.TypeText Text:= _
+        "; however, the apparently isolated and relatively historically remote nature of this behavior largely mitigates our concern."
+End Sub
+Sub Replication()
+'
+' Replication Macro
+'
+'
+    Selection.TypeText Text:= _
+        "What appears below is an exact replication of the applicant's entry on o"
+    Selection.TypeText Text:="ur supplemental questionnaire:"
+End Sub
+Sub SixTNoNeg()
+'
+' SixTNoNeg Macro
+'
+'
+    
+    Selection.TypeText Text:= _
+        "The applicant's presentation and self-reported history offer no contemporary evidence for the possible negative extremes in the traits suggested by these results. The lack of support for these potential extremes indicates that the applicant likely only possesses and displays the indicated traits to an acceptable/moderate degree that is unlikely to impair professional performance."
+       
+End Sub
+Sub Calibri()
+'
+' Calibri Macro
+'
+'
+    Selection.WholeStory
+    Selection.Font.Name = "Calibri Light"
+End Sub
+
+Sub Inconsistent()
+'
+' Inconsistent Macro
+'
+'
+    Selection.TypeText Text:= _
+        "The discrepancies in the applicant's self-report raise conscientiousness and integrity concerns. A lack of thoroughness, consistency, and accuracy when describing one's personal history can be a powerful predictor of negative job outcomes. For instance, research has specifically found that applicants who give inconsistent or discrepant responses in their self-report, even those that are minor, are more likely to be subject to formal discipline."
+    
+End Sub
+
+Sub NoDQs()
+'
+' NoDQs Macro
+'
+'
+    Selection.TypeText Text:= _
+        "denied ever being disqualified from a hiring process due to "
+    Selection.TypeText Text:= _
+        "a background investigation, psychological assessment, or pol"
+    Selection.TypeText Text:="ygraph examination."
+End Sub
+Sub CPIUnsupport()
+'
+' CPIUnsupport Macro
+'
+'
+    Selection.TypeText Text:= _
+        "The applicant's presentation and self-report offer no contemporary evidence for the negative indicators suggested by testing, largely mitigating our concerns about these results."
+End Sub
+Sub BlockQuote()
+'
+' BlockQuote Macro
+'
+'
+    Selection.Font.Italic = True
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.01)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.13)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.2)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.32)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.38)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.45)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.51)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.57)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.51)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0.51)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.04)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.11)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.17)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.23)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.29)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.36)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.42)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.48)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+    With Selection.ParagraphFormat
+        .RightIndent = InchesToPoints(0.48)
+        .SpaceBeforeAuto = False
+        .SpaceAfterAuto = False
+    End With
+End Sub
+
+Sub Social()
+'
+' Social Macro
+'
+'
+    Selection.TypeText Text:= _
+        "communicating with others tactfully and respectfully"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "showing sensitivity and concern in one's daily interactions"
+    Selection.TypeParagraph
+    Selection.TypeText Text:="the ability to read people"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "awareness of the impact of one's words and behavior on others"
+    Selection.TypeParagraph
+    Selection.TypeText Text:="interest and concern for the feelings of others"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "exercising tact and impartiality with all people"
+    Selection.TypeParagraph
+    Selection.TypeText Text:="comfort in approaching people"
+    Selection.TypeParagraph
+    Selection.TypeText Text:="skill in reducing interpersonal conflict"
+    With ListGalleries(wdBulletGallery).ListTemplates(1).ListLevels(1)
+        .NumberFormat = ChrW(61607)
+        .TrailingCharacter = wdTrailingTab
+        .NumberStyle = wdListNumberStyleBullet
+        .NumberPosition = InchesToPoints(0.25)
+        .Alignment = wdListLevelAlignLeft
+        .TextPosition = InchesToPoints(0.5)
+        .TabPosition = wdUndefined
+        .ResetOnHigher = 0
+        .StartAt = 1
+        With .Font
+            .Bold = wdUndefined
+            .Italic = wdUndefined
+            .StrikeThrough = wdUndefined
+            .Subscript = wdUndefined
+            .Superscript = wdUndefined
+            .Shadow = wdUndefined
+            .Outline = wdUndefined
+            .Emboss = wdUndefined
+            .Engrave = wdUndefined
+            .AllCaps = wdUndefined
+            .Hidden = wdUndefined
+            .Underline = wdUndefined
+            .Color = wdColorAutomatic
+            .Size = wdUndefined
+            .Animation = wdUndefined
+            .DoubleStrikeThrough = wdUndefined
+            .Name = "Wingdings"
+        End With
+        .LinkedStyle = ""
+    End With
+    ListGalleries(wdBulletGallery).ListTemplates(1).Name = ""
+    Selection.Range.ListFormat.ApplyListTemplateWithLevel ListTemplate:= _
+        ListGalleries(wdBulletGallery).ListTemplates(1), ContinuePreviousList:= _
+        False, ApplyTo:=wdListApplyToWholeList, DefaultListBehavior:= _
+        wdWord10ListBehavior
+End Sub
+Sub Team()
+'
+' Team Macro
+'
+'
+    Selection.TypeText Text:= _
+        "working effectively with others to accomplish goals"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "balancing personal wants with organizational/team goals"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "establishing and maintaining effective, cooperative working relationships with community members, co-workers, supervisors, representatives of other organizations, and others"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "sharing information and providing assistance and support to community members, co-workers, supervisors, and others"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "performing one's fair share in a group effort"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "not allowing personal differences to affect working relationships"
+    Selection.TypeParagraph
+End Sub
+Sub Adapt()
+'
+' Adapt Macro
+'
+'
+    Selection.TypeText Text:= _
+        "the ability to change gears and adjust to the many different and sometimes competing demands of the job"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "appropriately shifting between various work roles, such as facilitator, rule enforcer, etc."
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "adjusting to planned and unplanned work changes, including different types of incidents that must be handled one right after another"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "prioritizing and working effectively on several very different tasks/projects at the same time"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "using appropriate judgment and discretion in applying regulations and policies"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "understanding the difference between the letter and the spirit of rules and laws"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "performing duties without constant supervision or instructions"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "working in unstructured situations with minimal supervision"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "adjusting to differing supervisory styles"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "physically and mentally adjusting to shift work"
+    Selection.TypeParagraph
+    Selection.TypeText Text:= _
+        "anticipating potential outcomes and adjusting one's approach accordingly"
+    Selection.TypeParagraph
+End Sub
+Sub Conscientiousness()
+'
+' Conscientiousness Macro
+'
+'
+Selection.TypeText Text:= _
+"demonstrating diligent, reliable, conscientious work patterns"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"performing in a timely, logical manner in accordance with rules, regulations, and organizational policies"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"carrying assigned tasks through to successful and timely completion"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"maintaining a punctual, reliable attendance record"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"persevering in the face of obstacles, difficulties, long hours and other adverse working conditions"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"staying organized "
+Selection.TypeText Text:= _
+"carefully attending to details"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"staying current on rules, laws, and procedures"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"maintaining accountability for one's work, and analyzing prior mistakes or problems to improve performance"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"performing effectively under difficult and uncomfortable conditions"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"continually working to achieve trust with peers, supervisors, and community members"
+Selection.TypeParagraph
+End Sub
+Sub ImpulSafe()
+'
+' ImpulSafe Macro
+'
+'
+Selection.TypeText Text:= _
+"taking proper precautions"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"avoiding impulsive and/or unnecessarily risky behavior"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"ensuring the safety of oneself and others"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"ability and inclination to think before acting"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"behaving in conscious regard for the larger situation at hand"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"driving and otherwise behaving within one's own limits"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"taking proper precautions to maximally ensure safe performance"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"thinking things through before acting, without sacrificing decisive action when warranted"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"careful use and maintenance of personal and agency/company equipment and materials"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"safe driving practices during routine and high arousal activities"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"attention to and awareness of hazards"
+Selection.TypeParagraph
+End Sub
+Sub Integrity()
+'
+' Integrity Macro
+'
+'
+Selection.TypeText Text:= _
+"maintaining high standards of personal conduct"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"exhibiting honesty, impartiality, and trustworthiness"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"abiding by laws, regulations, and procedures"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"not abusing the system or using one's position for personal gain"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"not bending rules or otherwise trying to beat the system"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"not engaging in illegal or immoral activities - on or off the job"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"avoiding actions that are inappropriate and may impugn one's character, credibility, or otherwise reflect negatively on an agency"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"willingness to confront and report unethical and illegal behavior"
+Selection.TypeParagraph
+End Sub
+Sub StressTol()
+'
+' StressTol Macro
+'
+'
+Selection.TypeText Text:= _
+"the ability to change gears and easily adjust to the many different, sudden, and sometimes competing demands of the job"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"taking the negative aspects of the job in stride"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"accepting criticism and not becoming overly defensive"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"acceptance/ownership of personal limitations and mistakes "
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"ability to perform under difficult, threatening situations"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"maintaining positive self-image under adverse circumstances"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"maintaining even-tempered composure and demeanor"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"avoiding improper uses of force"
+Selection.TypeParagraph
+End Sub
+Sub DecJudge()
+'
+' DecJudge Macro
+'
+'
+Selection.TypeText Text:= _
+"exercising common sense and the ability to make sound decisions"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"sizing up situations quickly to determine and take the appropriate action"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"the ability to sift through information to glean that which is important, and, once identified, to use that information effectively"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"thinking on one's feet, using practical judgment and efficient problem solving"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"prioritizing competing demands"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"developing creative and innovative solutions to problems"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"basing decisions on the collection and consideration of important information"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"accurately gauging and acting in accordance with the potential long- and short-term outcomes of decisions"
+Selection.TypeParagraph
+End Sub
+Sub Assert()
+'
+' Assert Macro
+'
+'
+Selection.TypeText Text:= _
+"not being easily intimidated"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"using force, including deadly force, when necessary"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"asserting ideas and persuading others to adopt desired course of action"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"commanding respect"
+Selection.TypeParagraph
+Selection.TypeText Text:= _
+"emanating professional pride and demeanor"
+Selection.TypeParagraph
+End Sub
+Sub Avoid()
+'
+' Avoid Macro
+'
+'
+    Selection.TypeText Text:="avoiding participation in behavior that is inappropriate, self-damaging, and can adversely impact organizational functioning"
+    Selection.TypeParagraph
+End Sub
+Sub NoFullTime()
+'
+' NoFullTime Macro
+'
+'
+    Selection.TypeText Text:="That the applicant has never held a full-time position raises additional questions about his ability to successfully adapt to the demands of a full-time, high-stress position. The nature of his work history limits our ability to use this applicant's past professional performance to estimate future job behavior and in such a circumstance, it is possible that when initially faced with the demands of a law enforcement position, performance problems not recorded in his history may arise."
+End Sub
+Sub BriefJobs()
+'
+' BriefJobs Macro
+'
+'
+    Selection.TypeText Text:="An applicant holding multiple brief positions raises concerns about stability, commitment, and willingness to persevere. Research has established that this personal history indicator has implications for the likelihood of negative job outcomes, and it raises questions about his ability to successfully adapt to the demands of a full-time, high-stress position. Further, limited time in full-time positions challenges our ability to use this applicant's past professional performance to estimate future job behavior."
+End Sub
+Sub None()
+'
+' None Macro
+'
+'
+Selection.SelectCell
+Selection.TypeText Text:="None"
+Selection.SelectCell
+Selection.Font.Name = "Calibri Light"
+Selection.Font.Bold = False
+Selection.Font.Italic = False
+Selection.Font.Underline = False
+Selection.Font.Color = -587137025
+Selection.SelectCell
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0)
+        .RightIndent = InchesToPoints(0)
+        .SpaceBefore = 0
+        .SpaceBeforeAuto = False
+        .SpaceAfter = 0
+        .SpaceAfterAuto = False
+        .LineSpacingRule = wdLineSpaceMultiple
+        .LineSpacing = LinesToPoints(1.08)
+        .Alignment = wdAlignParagraphJustify
+        .WidowControl = True
+        .KeepWithNext = False
+        .KeepTogether = False
+        .PageBreakBefore = False
+        .NoLineNumber = False
+        .Hyphenation = True
+        .FirstLineIndent = InchesToPoints(0)
+        .OutlineLevel = wdOutlineLevelBodyText
+        .CharacterUnitLeftIndent = 0
+        .CharacterUnitRightIndent = 0
+        .CharacterUnitFirstLineIndent = 0
+        .LineUnitBefore = 0
+        .LineUnitAfter = 0
+        .MirrorIndents = False
+        .TextboxTightWrap = wdTightNone
+        .CollapsedByDefault = False
+    End With
+
+    
+End Sub
+Sub DVVictim()
+'
+' DVVictim Macro
+'
+'
+    Selection.TypeText Text:= _
+        "While a history of being the victim of a crime does not independently impact an applicant's suitability, long-term involvement in a relationship that involves physical and emotional abuse, without contacting the police or seeking a protective order raises serious concerns about one's assertiveness, decision-making/judgment, willingness to report and act on unlawful behavior, and ability to avoid negative personal influences and situations that could impact the performance of essential job duties and functions. Ciara's involvement in this abusive relationship caused her to resign from her position without notice, have negative contact with police, and be forced to leave her place of residence. This kind of instability and poor decision-making may have implications for her ability to make sound decisions under stress, both on and off shift, and avoid situations that could impact her professional performance or reflect negatively on the agency."
+    
+End Sub
+
+Sub ConflictRes()
+'
+' ConflictRes Macro
+'
+'
+    Selection.TypeText Text:= _
+        "The applicant's responses above suggest limited skills for resolving conflict. Being unable to proactively confront and reduce conflict raises questions about the applicant's assertiveness, social competence, and teamwork skills. It also raises concerns about his ability to interact effectively will difficult/agitated individuals to achieve de-escalation, cooperation, and compliance."
+End Sub
+Sub Quiet()
+'
+' Quiet Macro
+'
+'
+    Selection.TypeText Text:= _
+        "The applicant's indication that he becomes quiet when experiencing stress or anger raises some questions about his ability to be appropriately assertive and an active decision-maker during critical incidents/emergency scenarios."
+End Sub
+Sub Writing()
+'
+' Writing Macro
+'
+'
+    Selection.TypeText Text:="The applicant entries replicated above show a lack of care and attention to detail or general deficiencies in written communication; either of these could be reasonably expected to impact his professional performance, particularly the ability to generate clear, accurate, and generally well-written documents meeting basic professional standards and being suitable for official/public records."
+End Sub
+Sub CIPoorComp()
+'
+' CIPoorComp Macro
+'
+'
+    Selection.TypeText Text:="The applicant's testing results contain indicators that his self-reported history does not appear to support. When discussing his endorsement of critical items that may have contributed to these indicators, it seems that the applicant may not have understood some of the items, as when they were rephrased, he changed the direction of his endorsement. Difficulty understanding test questions may have greater meaning for his ability to accurately process written information than the actual content reflected in these items, especially if there is no evidence in his confirmed history to support these negative indicators. We might expect difficulties with comprehension to impact his decision-making/judgment, particularly the accurate comprehension and application of written statutes, policies, and procedures."
+End Sub
+Sub Concrete()
+'
+' Concrete Macro
+'
+'
+    Selection.TypeText Text:="The applicant's testing results contain numerous negative indicators that his self-reported history does not appear to support directly. When discussing his endorsement of critical items that may have contributed to these indicators, it seems that the applicant may not have understand multiple items or interpreted items in an overly concrete manner. Difficulty understanding test questions and/or responding to test items from a very narrow perspective may have greater meaning for his ability to accurately process written information and appreciate context and nuance than the actual content reflected in these items, especially if there is no evidence in his confirmed history to support these negative indicators. We might expect difficulties with comprehension, context, and nuance to impact his decision-making/judgment, particularly sifting through information to understand what is important, accurately comprehending and applying written policies and procedures, and "
+    Selection.TypeText Text:="differentiating between the letter and spirit of rules and laws."
+End Sub
+Sub CPIDefensive()
+'
+' CPIDefensive Macro
+'
+'
+    Selection.TypeText Text:= _
+        "Due to a potentially defensive approach to testing and a potential unwillingness to admit minor faults and weaknesses, the applicant's test results raise mild concern in the areas of integrity, social competence, and teamwork. Though testing also suggested several positive indicators, it should be noted that these indicators may be an accurate reflection of the applicant or may be the product of a defensive approach to testing."
+End Sub
+Sub Converge()
+'
+' Converge Macro
+'
+'
+    Selection.TypeText Text:="Our concerns about these results are increased by the apparent convergence of these findings with the concerns noted previously in this report about the applicant's self-reported history."
+End Sub
+Sub Bullet()
+'
+' Bullet Macro
+'
+'
+    With ListGalleries(wdBulletGallery).ListTemplates(1).ListLevels(1)
+        .NumberFormat = ChrW(61607)
+        .TrailingCharacter = wdTrailingTab
+        .NumberStyle = wdListNumberStyleBullet
+        .NumberPosition = InchesToPoints(0.25)
+        .Alignment = wdListLevelAlignLeft
+        .TextPosition = InchesToPoints(0.5)
+        .TabPosition = wdUndefined
+        .ResetOnHigher = 0
+        .StartAt = 1
+        With .Font
+            .Bold = wdUndefined
+            .Italic = wdUndefined
+            .StrikeThrough = wdUndefined
+            .Subscript = wdUndefined
+            .Superscript = wdUndefined
+            .Shadow = wdUndefined
+            .Outline = wdUndefined
+            .Emboss = wdUndefined
+            .Engrave = wdUndefined
+            .AllCaps = wdUndefined
+            .Hidden = wdUndefined
+            .Underline = wdUndefined
+            .Color = -587137025
+            .Size = wdUndefined
+            .Animation = wdUndefined
+            .DoubleStrikeThrough = wdUndefined
+            .Name = "Wingdings"
+        End With
+        .LinkedStyle = ""
+    End With
+    ListGalleries(wdBulletGallery).ListTemplates(1).Name = ""
+    Selection.Range.ListFormat.ApplyListTemplateWithLevel ListTemplate:= _
+        ListGalleries(wdBulletGallery).ListTemplates(1), ContinuePreviousList:= _
+        False, ApplyTo:=wdListApplyToWholeList, DefaultListBehavior:= _
+        wdWord10ListBehavior
+End Sub
+Sub Normal()
+'
+' Normal Macro
+'
+'
+
+    Selection.Font.Name = "Calibri Light"
+    Selection.Font.Size = 11
+    Selection.Font.Bold = False
+    Selection.Font.Italic = False
+    Selection.Font.Underline = False
+    Selection.Font.Color = -587137025
+    With Selection.ParagraphFormat
+        .LeftIndent = InchesToPoints(0)
+        .RightIndent = InchesToPoints(0)
+        .SpaceBefore = 0
+        .SpaceBeforeAuto = False
+        .SpaceAfter = 0
+        .SpaceAfterAuto = False
+        .LineSpacingRule = wdLineSpaceMultiple
+        .LineSpacing = LinesToPoints(1.08)
+        .Alignment = wdAlignParagraphJustify
+        .WidowControl = True
+        .KeepWithNext = False
+        .KeepTogether = False
+        .PageBreakBefore = False
+        .NoLineNumber = False
+        .Hyphenation = True
+        .FirstLineIndent = InchesToPoints(0)
+        .OutlineLevel = wdOutlineLevelBodyText
+        .CharacterUnitLeftIndent = 0
+        .CharacterUnitRightIndent = 0
+        .CharacterUnitFirstLineIndent = 0
+        .LineUnitBefore = 0
+        .LineUnitAfter = 0
+        .MirrorIndents = False
+        .TextboxTightWrap = wdTightNone
+        .CollapsedByDefault = False
+    End With
+End Sub
+Sub NotReported()
+'
+' NotReported Macro
+'
+'
+    Selection.TypeText Text:= _
+        "Though not reported on the supplemental questionnaire, during a prior evaluation with BPS, the applicant disclosed"
+End Sub
+
